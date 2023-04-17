@@ -1,0 +1,1232 @@
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 9.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 9.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 8.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'accounts', 'unit': 'index_hit%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'accounts', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'table-bloat', 'database': 'test', 'table': 'company', 'unit': 'bloat%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 6, 'attributes': {'what': 'client-connections', 'unit': 'connection'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'relation', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 1, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'virtualxid', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 2, 'attributes': {'what': 'locks_granted', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'locks_waiting', 'type': 'locks', 'locktype': 'total', 'unit': 'lock'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'wal-file-amount', 'unit': 'file'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 100.0, 'attributes': {'what': 'xid-remaining', 'unit': '%'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 7861039, 'attributes': {'what': 'database-size', 'database': 'test', 'unit': 'B'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 9.0, 'attributes': {'what': 'transaction-rate', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'transaction-rollbacks', 'type': 'transactions', 'database': 'test', 'unit': 'transaction'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'company', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'last-vacuum', 'database': 'test', 'table': 'accounts', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0, 'attributes': {'what': 'sec-since-oldest-xact-start', 'database': 'test', 'unit': 's'}}
+{'type': 'metric', 'key': 'postgresql', 'value': 0.0, 'attributes': {'what': 'index-hit', 'database': 'test', 'table': 'company', 'unit': 'index_hit%'}}
