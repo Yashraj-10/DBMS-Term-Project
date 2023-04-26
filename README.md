@@ -2,7 +2,7 @@
 
 This is the repository for the term project of the course CS39202 DBMS Lab, IIT Kharagpur for the Spring Semester 2022-23.  
 
-This is a project on "Metric Reporting" on a database server.
+This is a project on "Metric Reporting" of a database server.
 
 
 Group Members:
@@ -12,14 +12,12 @@ Group Members:
 - 20CS10073 &emsp;&emsp; [Vikas Vijaykumar Bastewad](https://www.github.com/vikasb9749)
 - 20CS30007 &emsp;&emsp; [Astitva](https://www.github.com/astitva27)
 </br>
-</br>
+### The projects are:
 
-### The projects are: 
-
-## [Python GUI Application](/Python_GUI/)
+- ### [Python GUI Application](/Python_GUI/)
 
 
-## [Python CLI Application](/Python_CLI/)
+- ### [Python CLI Application](/Python_CLI/)
 
 
-## [Golang CLI Application](/GO_CLI/)
+- ### [Golang CLI Application](/GO_CLI/)
