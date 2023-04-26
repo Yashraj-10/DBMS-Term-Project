@@ -11,11 +11,15 @@ Group Members:
 - 20CS10005 &emsp;&emsp; [Aditya Choudhary](https://www.github.com/adityach-01)
 - 20CS10073 &emsp;&emsp; [Vikas Vijaykumar Bastewad](https://www.github.com/vikasb9749)
 - 20CS30007 &emsp;&emsp; [Astitva](https://www.github.com/astitva27)
-  
-# [Python GUI Application](/postgresql_metrics/)
+</br>
+</br>
+
+### The projects are: 
+
+## [Python GUI Application](/Python_GUI/)
 
 
-# [Python CLI Application]()
+## [Python CLI Application](/Python_CLI/)
 
 
-# [Golang CLI Application]()
+## [Golang CLI Application](/GO_CLI/)
